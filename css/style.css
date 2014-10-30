@@ -65,7 +65,7 @@ h4.contrasting1-color {
   border-radius: 5px;
 }
 
-.box h2 {
+h2 {
   font-size: 1.4em;
   font-weight: 500;
   padding: 10px;
@@ -75,7 +75,7 @@ h4.contrasting1-color {
   color: #002b2e;
 }
 
-.box p {
+p {
   font-size: 1em;
   line-height: 1.5em;
   padding-left: 5%;
@@ -84,6 +84,7 @@ h4.contrasting1-color {
 
 li {
   padding-left: 10px;
+  list-style: none;
 }
 
 .box h3 {
@@ -234,5 +235,4 @@ ul {
   #mapDiv {
     padding-bottom: 5%;
   }
-
 }
