@@ -1,0 +1,238 @@
+/* General Styles */
+
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+}
+
+.primary-color {
+  color: #03bbc5;
+}
+
+.contrasting-1-color {
+  color: #002b2e;
+}
+
+.contrasting-2-color {
+  color: #646464;
+}
+
+.analgous-color {
+  color: #008cb0;
+}
+
+.muted-color {
+  color: #777;
+}
+
+.container {
+  margin-top: 40px;
+  margin-bottom: 15px;
+  background: #eee;
+  border-radius: 5px;
+  color: #646464;
+}
+
+#photo {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  padding: 5px;
+  background: white;
+  display: inline-block;
+}
+
+/* Header */
+
+h1.analgous-color {
+  display: block;
+  font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
+  font-size: 5.2em;
+  font-weight: 100;
+  line-height: 1.1;
+}
+
+h4.contrasting1-color {
+  text-transform: uppercase;
+  line-height: 0.2;
+}
+
+.box {
+  margin-bottom: 10px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.box h2 {
+  font-size: 1.4em;
+  font-weight: 500;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: center;
+  color: #002b2e;
+}
+
+.box p {
+  font-size: 1em;
+  line-height: 1.5em;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+li {
+  padding-left: 10px;
+}
+
+.box h3 {
+  font-size: 1em;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #00668A;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.education-entry h2,
+.work-entry p,
+.project-entry p
+ {
+  margin-left: -5%;
+}
+
+.certificate {
+  font-family: 'Montez';
+  text-decoration: none;
+  color: #444;
+  font-size: 1.4em;
+  line-height: 1;
+}
+
+.certificate:hover {
+  color: #6A6A6A;
+}
+
+.gray {
+  background-color: #F3F3F3;
+  padding-bottom: 10px;
+  clear: both;
+  border-radius: 5px;
+}
+
+.date-text {
+  font-style: italic;
+  font-size: 1em;
+  color: #999999;
+  float: left;
+  padding-right: 5px;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 1em;
+  color: #999999;
+  line-height: 16px;
+  float: right;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  display: block;
+  padding-bottom: 5px;
+}
+
+#Pic {
+  text-align: center;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+#letsConnect a {
+  background-color: #008cb0;
+  color: #FFF;
+  border-radius: 5px;
+  margin-top: 40px;
+  font-size: 1.4em;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-decoration: none;
+}
+
+#letsConnect a:hover, a:visited, a:active {
+  background-color: #26B2D6;
+}
+
+.center-content {
+  padding: 5%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* Map */
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 2%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 10%;
+}
+
+/* Footer */
+
+#javascript {
+  font-family: 'Montez', 'Brush Script MT', 'Papyrus', cursive;
+  color: #008cb0 ;
+  font-size: 1.6em;
+}
+
+.github {
+  height: auto; 
+  width: auto; 
+  max-width: 20px; 
+  max-height: 20px;"
+}
+
+/* MEDIA */
+
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 750px) {
+  #skillsH3,
+  #skills {
+    display: block;
+  }
+  #mapDiv {
+    padding-bottom: 5%;
+  }
+
+}
