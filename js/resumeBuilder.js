@@ -39,18 +39,18 @@ var work = {
 var projects = {
     "project": [
         {
-            "title": "Brigitte",
-            "dates": "2012",
-            "description": "A sweet little girl",
-            "images": "images/Brigitte.jpg", 
-            "url": "https://github.com/MimiBambino"
+            "title": "Etch-A-Sketch",
+            "dates": "2014",
+            "description": "Draw your design on the gray box then resize the pixels in the box!",
+            "images": "images/Etch-A-Sketch.png", 
+            "url": "http://mimibambino.github.io/Etch-A-Sketch/"
         },
         {
             "title": "Interactive Resume",
             "dates": "2014",
             "description": "A resume build with JavaScript, jQuery and Bootstrap.",
             "images": "images/IR.jpg",
-            "url": "https://github.com/MimiBambino/InteractiveResume"
+            "url": "http://mimibambino.github.io/InteractiveResume/"
         },
         {
             "title": "Johnny",
