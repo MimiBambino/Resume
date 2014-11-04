@@ -43,21 +43,24 @@ var projects = {
             "dates": "2014",
             "description": "Draw your design on the gray box then resize the pixels in the box!",
             "images": "images/Etch-A-Sketch.png", 
-            "url": "http://mimibambino.github.io/Etch-A-Sketch/"
+            "url": "http://github.com/MimiBambino/Etch-A-Sketch/",
+            "demo": "http://mimibambino.github.io/Etch-A-Sketch/"
         },
         {
             "title": "Interactive Resume",
             "dates": "2014",
             "description": "A resume build with JavaScript, jQuery and Bootstrap.",
             "images": "images/IR.jpg",
-            "url": "http://mimibambino.github.io/InteractiveResume/"
+            "url": "http://github.com/MimiBambino/InteractiveResume/",
+            "demo": "http://mimibambino.github.io/InteractiveResume/"
         },
         {
-            "title": "Johnny",
-            "dates": "2010",
-            "description": "This kid loves Spiderman!",
-            "images": "images/Johnny.jpg",
-            "url": "https://github.com/MimiBambino"
+            "title": "Custom Meme Maker",
+            "dates": "2014",
+            "description": "Create your own meme and save it to your computer.",
+            "images": "images/johnnyMeme.png",
+            "url": "https://github.com/MimiBambino/MemeMaker",
+            "demo": "http://mimibambino.github.io/MemeMaker/"
         } ],
         "display": function () {
           for (i in projects.project) {
@@ -69,7 +72,7 @@ var projects = {
             $(".project-entry:last").append(formattedProjectDates);
             var formattedProjectDescription = HTMLprojectDescription.replace("%data%", project.description);
             $(".project-entry:last").append(formattedProjectDescription);
-            var formattedProjectImage = HTMLprojectImage.replace("%data%", project.images).replace('%url%', project.url);
+            var formattedProjectImage = HTMLprojectImage.replace("%data%", project.images).replace('%demo%', project.demo);
             $(".project-entry:last").append(formattedProjectImage);
           }
         }
@@ -326,19 +329,3 @@ window.addEventListener('resize', function(e) {
 
 map.fitBounds(mapBounds);
 });
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 

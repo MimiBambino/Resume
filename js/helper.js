@@ -28,7 +28,7 @@ var HTMLprojectStart = "<div class='project-entry'></div>";
 var HTMLprojectTitle = "<a href='%url%' target='_blank'><h3>%data%</h3></a>";
 var HTMLprojectDates = "<div class='date-text'>%data%</div>";
 var HTMLprojectDescription = "<p><br>%data%</p>";
-var HTMLprojectImage = "<a href='%url%' target='_blank'><img class='img-responsive img-thumbnail' src='%data%'></a>";
+var HTMLprojectImage = "<a href='%demo%' target='_blank'><img class='img-responsive img-thumbnail' src='%data%'></a>";
 
 var HTMLschoolStart = "<div class='education-entry'></div>";
 var HTMLschoolName = "<a href='%url%'><h3>%data%</h3></a>";
@@ -54,23 +54,4 @@ var contactLinkedIn = "<li class='orange-text contact-type'>linkedin: <span clas
 var HTMLlanguage = "<li><span class='analgous-color'>%data%</span></li>";
 
 var googleMap = "<div id='map' class='box'></div>";
-
-/*
-The next few lines about clicks are for the Collecting Click Locations quiz in Lesson 2.
-*/
-clickLocations = [];
-
-function logClicks(x,y) {
-  clickLocations.push(
-    {
-      "x": x,
-      "y": y
-    }
-  );
-  console.log("x location: " + x + "; y location: " + y);
-}
-
-$(document).click(function(loc) {
-  // your code goes here!
-});
 
